@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.log {
+  background-image: url(./images/bg-header-mobile.png);
+  background-repeat: no-repeat;
+  padding: 100px;
+  background-size: cover;
+}
+.log img {
+  width: 50%;
+}
+.footer {
+  background-color: whitesmoke;
+}
+h2 {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 600;
+  font-size: 5px;
+  text-align: center;
+}
+p {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 300;
+  font-size: x-small;
+  /* align-content: center; */
+  /* text-align: justify; */
+}
+.iOS {
+  border-radius: 18px;
+  background-color: #198754;
+  box-shadow: none;
+  font-size: 10px;
+  margin-top: 1.5rem;
+  padding: 0.6rem 4rem;
+  margin: 10px;
+}
+.Mac {
+  border-radius: 32px;
+  background-color: #3f00ff;
+  box-shadow: none;
+  font-size: 10px;
+  margin-top: 1.5rem;
+  padding: 0.6rem 4rem;
+  margin: 10px;
+}
+h4 {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 400;
+  font-size: 3px;
+  text-align: center;
+}
+.desktop img {
+  width: 100%;
+}
+button {
+  border: none;
+  margin-top: 10px;
+  padding: 0.7rem 2.5rem;
+  border-radius: 16px;
+}
+.quick {
+  text-align: center;
+  margin-top: 20px;
+}
+.easy {
+  text-align: center;
+  padding: 20px;
+}
+.cloud {
+  text-align: center;
+  margin-top: 5px;
+}
+.instant {
+  text-align: center;
+  padding: 5px;
+}
+.comp {
+  text-align: center;
+  margin-top: 15px;
+}
+.ret{
+  text-align: center;
+  
+}
+
+/* big/large screens */
+@media (width > 700px) {
+  .log {
+    background-image: url(./images/bg-header-desktop.png);
+    background-size: cover;
+    padding: 40px 10px;
+  }
+  p {
+    margin: 100px;
+  }
+  .log img {
+    width: 5%;
+  }
+  .desktop img {
+    width: 80%;
+    align-content: start;
+  }
+  .side {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 60px;
+  }
+  .beside {
+    margin-right: 3rem;
+  }
+  .quick {
+    margin-top: 3rem;
+    margin-left: 9rem;
+  }
+  .cloud {
+    margin-top: 2rem;
+    margin-left: 9rem;
+  }
+  .comp {
+    margin-top: 2rem;
+    margin-left: 9rem;
+  }
+}
