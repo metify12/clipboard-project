@@ -14,6 +14,11 @@
 .log img {
   width: 50%;
 }
+
+.clip{
+  width: 90%;
+  margin: auto;
+}
 .footer {
   background-color: whitesmoke;
   margin-top: 150px;
@@ -66,9 +71,12 @@ h4 {
   font-size: x-small;
   text-align: center;
 }
-.desktop img {
-  width: 100%;
+
+.desktop{
+  width: 85%;
+  margin: auto;
 }
+
 button {
   border: none;
   margin-top: 10px;
@@ -88,7 +96,7 @@ button {
   text-align: center;
   padding: 5px;
   width: 50%;
-  margin-left: 80px;
+  margin: auto;
 }
 .comp {
   text-align: center;
@@ -97,37 +105,42 @@ button {
 .ret {
   text-align: center;
   width: 50%;
-  margin-left: 80px;
+  margin:auto;
 }
 .easy {
   text-align: center;
   width: 50%;
-  margin-left: 80px;
+  margin: auto;
 }
 .anywhere {
   margin-top: 7rem;
   width: 50%;
-  margin-left: 80px;
+  margin: auto;
 }
 .clicks {
   text-align: center;
   width: 53%;
-  margin-left: 80px;
+  margin: auto;
+}
+.sunset{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .sunset img {
   width: 80%;
   margin-top: 60px;
-  margin-left: 35px;
+  margin: auto;
 }
 .super {
   margin-top: 70px;
   width: 60%;
-  margin-left: 70px;
+  margin: auto;
 }
 .product {
   width: 47%;
   text-align: center;
-  margin-left: 95px;
+  margin:auto;
 }
 
 .create {
@@ -202,9 +215,8 @@ button {
   .log img {
     width: 5%;
   }
-  .desktop img {
+  .desktop{
     width: 100%;
-    align-content: start;
   }
   .side {
     display: grid;
@@ -237,7 +249,7 @@ button {
   .ret {
     text-align: left;
     width: 60%;
-    margin-left: 0px;
+    margin-left: 0;
   }
   .clip {
     text-align: center;
@@ -247,7 +259,7 @@ button {
   .ever {
     text-align: center;
     width: 30%;
-    margin-left: 400px;
+    margin: auto;
   }
   .anywhere {
     width: 80%;
@@ -258,15 +270,16 @@ button {
     margin-left: 330px;
   }
   .sunset img {
-    width: 45%;
-    margin-left: 280px;
+    width: 70%;
+    margin: auto;
+    
   }
   .super {
-    margin-left: 200px;
+    margin:auto;
     margin-top: 30px;
   }
   .product {
-    margin-left: 270px;
+    margin:auto;
   }
   .triple {
     display: grid;
