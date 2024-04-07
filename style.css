@@ -16,7 +16,21 @@
 }
 .footer {
   background-color: whitesmoke;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+.tolu1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* .footer img {
+  width: 10%;
+  margin-top: 30px;
+  margin-left: 150px;
+} */
 h2 {
   font-family: "Bai Jamjuree", sans-serif;
   font-weight: 600;
@@ -27,8 +41,6 @@ p {
   font-family: "Bai Jamjuree", sans-serif;
   font-weight: 300;
   font-size: x-small;
-  /* align-content: center; */
-  /* text-align: justify; */
 }
 .iOS {
   border-radius: 18px;
@@ -51,7 +63,7 @@ p {
 h4 {
   font-family: "Bai Jamjuree", sans-serif;
   font-weight: 400;
-  font-size: 3px;
+  font-size: x-small;
   text-align: center;
 }
 .desktop img {
@@ -67,10 +79,7 @@ button {
   text-align: center;
   margin-top: 20px;
 }
-.easy {
-  text-align: center;
-  padding: 20px;
-}
+
 .cloud {
   text-align: center;
   margin-top: 5px;
@@ -78,16 +87,108 @@ button {
 .instant {
   text-align: center;
   padding: 5px;
+  width: 50%;
+  margin-left: 80px;
 }
 .comp {
   text-align: center;
   margin-top: 15px;
 }
-.ret{
+.ret {
   text-align: center;
-  
+  width: 50%;
+  margin-left: 80px;
+}
+.easy {
+  text-align: center;
+  width: 50%;
+  margin-left: 80px;
+}
+.anywhere {
+  margin-top: 7rem;
+  width: 50%;
+  margin-left: 80px;
+}
+.clicks {
+  text-align: center;
+  width: 53%;
+  margin-left: 80px;
+}
+.sunset img {
+  width: 80%;
+  margin-top: 60px;
+  margin-left: 35px;
+}
+.super {
+  margin-top: 70px;
+  width: 60%;
+  margin-left: 70px;
+}
+.product {
+  width: 47%;
+  text-align: center;
+  margin-left: 95px;
 }
 
+.create {
+  text-align: center;
+  width: 53%;
+  margin-left: 80px;
+  margin-top: 50px;
+}
+.plain {
+  text-align: center;
+  width: 53%;
+  margin-left: 80px;
+  margin-top: 30px;
+}
+.sneak {
+  text-align: center;
+  width: 53%;
+  margin-left: 80px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.social {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.systems img {
+  width: 25%;
+  margin-top: 40px;
+  margin-left: 135px;
+}
+.second-clip {
+  margin-top: 10rem;
+  width: 60%;
+  margin-left: 60px;
+}
+.available {
+  max-width: 49%;
+  margin-left: 80px;
+  text-align: center;
+}
+.faq {
+  text-align: center;
+  margin-top: 50px;
+  margin-left: -25px;
+}
+.contact {
+  text-align: center;
+  margin-top: 20px;
+}
+.privacy {
+  text-align: center;
+  margin-top: 20px;
+}
+.kit {
+  text-align: center;
+  margin-top: 20px;
+}
+.guide {
+  text-align: center;
+  margin-top: 20px;
+}
 /* big/large screens */
 @media (width > 700px) {
   .log {
@@ -95,18 +196,19 @@ button {
     background-size: cover;
     padding: 40px 10px;
   }
-  p {
+  /* p {
     margin: 100px;
-  }
+  } */
   .log img {
     width: 5%;
   }
   .desktop img {
-    width: 80%;
+    width: 100%;
     align-content: start;
   }
   .side {
     display: grid;
+    gap: 4rem;
     grid-template-columns: 1fr 1fr;
     margin-top: 60px;
   }
@@ -114,15 +216,85 @@ button {
     margin-right: 3rem;
   }
   .quick {
-    margin-top: 3rem;
-    margin-left: 9rem;
+    text-align: left;
   }
   .cloud {
-    margin-top: 2rem;
-    margin-left: 9rem;
+    text-align: left;
   }
   .comp {
-    margin-top: 2rem;
-    margin-left: 9rem;
+    text-align: left;
+  }
+  .instant {
+    text-align: left;
+    width: 60%;
+    margin-left: -5px;
+  }
+  .easy {
+    text-align: left;
+    width: 60%;
+    margin-left: 2px;
+  }
+  .ret {
+    text-align: left;
+    width: 60%;
+    margin-left: 0px;
+  }
+  .clip {
+    text-align: center;
+    width: 30%;
+    margin-left: 400px;
+  }
+  .ever {
+    text-align: center;
+    width: 30%;
+    margin-left: 400px;
+  }
+  .anywhere {
+    width: 80%;
+    margin-top: 80px;
+  }
+  .clicks {
+    width: 35%;
+    margin-left: 330px;
+  }
+  .sunset img {
+    width: 45%;
+    margin-left: 280px;
+  }
+  .super {
+    margin-left: 200px;
+    margin-top: 30px;
+  }
+  .product {
+    margin-left: 270px;
+  }
+  .triple {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .create {
+    margin-top: 20px;
+  }
+  .systems {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 5px;
+    margin-left: -50px;
+  }
+  .second-clip {
+    margin-top: 6rem;
+    margin-left: 240px;
+  }
+  .available {
+    width: 35%;
+    margin-left: 370px;
+  }
+  .footer{
+    flex-direction: row;
+  }
+  .tolu1{
+    flex-direction: row;
   }
 }
